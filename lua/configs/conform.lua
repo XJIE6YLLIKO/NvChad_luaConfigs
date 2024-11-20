@@ -3,8 +3,10 @@ local options = {
     lua = { "stylua" },
     python = { "black" },
     nix = { "nixpkgs-fmt" },
-    css = { "prettierd" },
-    html = { "prettierd" },
+    css = { "stylelint" },
+    html = { "djlint" },
+    json = { "jq" },
+    yaml = { "yq" }
   },
 
   format_on_save = {
